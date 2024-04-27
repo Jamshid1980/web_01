@@ -1,0 +1,190 @@
+/* general styles start */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1100px;
+}
+
+.container nav {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container nav ul:nth-child(1) {
+    margin-left: 0;
+}
+
+.container nav ul li {
+    list-style: none;
+}
+
+.container nav ul li:nth-child(1) {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container nav ul:nth-child(1) li:nth-child(1) span {
+    color: rgb(65, 63, 63);
+    font-weight: 100;
+}
+
+.container nav ul:nth-child(1) li:nth-child(1) {
+    padding-right: 3rem;
+}
+
+.container nav ul:nth-child(1) li:nth-child(2) {
+    padding-left: 3rem;
+    border-left: 0.2rem solid black;
+}
+
+.container nav ul:nth-child(2) {
+    margin-right: 0;
+}
+
+.container nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.container nav ul:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+.container nav ul:nth-child(2) li:nth-child(1) {
+    padding-right: 1rem;
+}
+
+/* main section start */
+
+/* one/twelve start */
+
+.one_twelve {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 20%;
+}
+
+/* one/twelve end */
+
+/* lemon start */
+
+.lemon {
+    position: absolute;
+    display: inline-block;
+    font-size: 50px;
+    letter-spacing: 1.5rem;
+    color: #C7C7C7;
+    font-weight: 100;
+    top: 68%;
+    left: 33%;
+}
+
+/* Lemon end */
+
+/* lemon-png-1 start */
+.lemon-png-1 {
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    width: 465px;
+    left: 48%;
+    top: 80%;
+}
+
+/* lemon-png-1 end */
+
+/* lemon-png-2 start */
+.lemon-png-2 {
+    position: absolute;
+    width: 465px;
+    left: 45%;
+    top: 95%;
+}
+
+/* lemon-png-2 end */
+
+/* right-black start */
+
+.right-black {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 0.1%;
+    height: 100%;
+    background: rgb(204, 203, 203);
+}
+
+.right-black_top {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 0.1%;
+    height: 25%;
+    /* width: 100%;
+    height: 25%; */
+    background-color: rgb(0, 0, 0);
+}
+
+/* right-black end */
+
+/* right search start */
+
+.right-search {
+    position: absolute;
+    right: -2%;
+    top: 160%;
+    font-size: 30px;
+}
+
+/* right search end */
+
+/* next back start */
+
+.next-back {
+    width: 10%;
+    position: absolute;
+    bottom: -150%;
+}
+
+.next-back ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.next-back ul li {
+    list-style: none;
+}
+
+.next-back ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+.next-back ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* next back end */
+
+/* main section end */
+
+/* general styles end */
